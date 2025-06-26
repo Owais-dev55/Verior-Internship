@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 1);
+  color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 30;
+}
+
+/* Landing Page */
+.landing_Page {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing_Page img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.landing_Page .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.landing_Page .text-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2;
+  padding: 0 1rem;
+}
+
+.landing_Page h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.landing_Page p {
+  font-size: 1.5rem;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #F7F7F7;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.contact-us input,
+.contact-us textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-us textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-us button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #2DC071;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.contact-us button:hover {
+  background-color: #23a35e;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #2DC071;
+}
+textarea:focus {
+    outline: none;
+    border: 2px solid #2DC071;
+}

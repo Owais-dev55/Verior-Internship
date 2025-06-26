@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F1F4F9; 
+  color: #334155; 
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex: 1 1 60%;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  color: #1E293B; 
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #334155;
+  line-height: 1.8;
+}
+
+.image {
+  flex: 1 1 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.image img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+article h1 {
+  font-size: 2rem;
+  color: #1E293B;
+  margin-bottom: 2rem;
+}
+
+article p {
+  font-size: 1.1rem;
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.journey {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+
+.journey h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1E293B;
+  text-align: center;
+}
+
+.journey p {
+  font-size: 1.1rem;
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #FFFFFF;
+  border-left: 4px solid #6366F1; 
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.project-card h3 {
+  color: #6366F1; 
+  margin-bottom: 0.5rem;
+}
+
+.project-card img {
+  width: 80%;
+  height: auto;
+  margin: 1rem auto 0;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.project-card img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #E2E8F0; 
+  background-color: #0F172A; 
+  width: 100%;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}

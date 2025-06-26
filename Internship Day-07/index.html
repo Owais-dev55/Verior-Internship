@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <h1 class="todo-h1">Todo List</h1>
+    <form action="" class="todo-form">
+        <input type="text" placeholder="enter your task" class="input">
+        <button type="submit" class="btn">Add task</button>   
+        <p class="para"></p> 
+    </form>
+    <ul  class="task-list"></ul>
+
+    <!-- e-commerce Product list -->
+     <div class="container">
+    <h1>Shop Products</h1>
+
+    <div class="filter-buttons">
+      <button class="filter-btn" data-category="all">All</button>
+      <button class="filter-btn" data-category="electronics">Electronics</button>
+      <button class="filter-btn" data-category="clothing">Clothing</button>
+      <button class="filter-btn" data-category="accessories">Accessories</button>
+    </div>
+
+    <div class="product-list">
+    </div>
+  </div>
+
+  <!-- movie search --> 
+   <div class="movie-container">
+    <h1>🎥 Movie Search</h1>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Enter movie name..." />
+      <button type="submit">Search</button>
+    </form>
+    <div id="movies" class="movie-list"></div>
+  </div>
+
+</body>
+<script src="index.js"></script>
+</html>

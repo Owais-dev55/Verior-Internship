@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Owais Khiljee</title>
+    <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="navbar-wrapper">
+  <nav>
+    <h1>Owais Khiljee</h1>
+    <ul>
+      <li>Intro</li>
+      <li>About</li>
+      <li>My Joruney</li>
+      <li>Projects</li>
+    </ul>
+    <button>Contact Me
+        <i class="fa-solid fa-user"></i>
+    </button>
+  </nav>
+</div>
+    <section class="container">
+
+      <div class="content">
+        <h1>About Owais Khiljee</h1>
+        <p>
+          I'm Owais Khiljee, a passionate web developer with a strong interest
+          in front-end technologies and building clean, user-friendly
+          interfaces. I enjoy learning new tools and continuously improving my
+          skills to create meaningful digital experiences.
+        </p>
+      </div>
+      <div class="image">
+        <img
+          src="image/jefferson-santos-9SoCnyQmkzI-unsplash.jpg"
+          alt="Owais Khiljee"
+        />
+      </div>
+       <article>
+        <h1>My Introduction</h1>
+        <p>
+  My name is Owais Khiljee, and I am an aspiring web developer with a deep passion for creating intuitive and impactful digital experiences. With a strong foundation in HTML, CSS, and JavaScript, I enjoy building responsive, user-friendly interfaces that blend creativity with functionality.
+  <br /><br />
+  I am currently expanding my skills in modern frameworks like React and Next.js, while also exploring the backend with tools like Firebase. I take pride in writing clean, maintainable code and constantly seek opportunities to learn and grow through real-world projects and collaboration.
+  <br /><br />
+  My goal is to become a full-stack developer who not only writes efficient code but also delivers solutions that solve real problems and improve lives. I believe in continuous learning, and I'm excited to contribute to meaningful projects and grow as a professional in the tech industry.
+</p>
+    </article>
+<section class="journey">
+    <h2>My Journey</h2>
+    <p>
+      My web development journey has been driven by a passion for learning and building real-world solutions. Along the way, I've worked on several projects that reflect my growth and curiosity in the tech space.
+    </p>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <h3>1. Personal Portfolio Website</h3>
+        <p>
+          A responsive portfolio built with HTML, CSS, and JavaScript to showcase my work, skills, and background. It highlights my projects and includes smooth navigation and interactive features.
+        </p>
+        <a href="https://owais-portfolio-git-main-owais-dev55s-projects.vercel.app/" target="_blank">
+        <img src="image/Screenshot 2025-06-16 152643.png" alt="image/Screenshot 2025-06-16 152643.png" />
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>2. E-commerce Product Page</h3>
+        <p>
+          A frontend e-commerce layout using React and CSS Modules. Designed a product card grid, shopping cart interaction, and responsive design for mobile users.
+        </p>
+        <a href="https://nextjs-vogueaura.vercel.app/" target="_blank">
+        <img src="image/updated.png" alt="E-commerce Project Screenshot" />
+        </a>
+      </div>
+
+      <div class="project-card">
+
+        <h3>3. Weather App</h3>
+        <p>
+    A responsive weather application built with React and TypeScript. It fetches real-time weather data using an external API and displays forecasts in a user-friendly interface. Includes features like location-based search and error handling.
+  </p>
+        <a href="https://weather-app-react-ts-eight.vercel.app/" target="_blank">
+        <img src="image/weather app.png" alt="Firebase Project Screenshot" />
+        </a>
+      </div>
+
+    </div>
+  </section>
+    </section>
+   
+    <footer>
+      <p>© 2025 Owais Khiljee. All rights reserved.</p>
+      
+    </footer>
+  </body>
+  <script>
+    fetch('Nav.html')
+    .then((response) => response.text())
+    .then((data) => {
+      document.querySelector('.navbar').innerHTML = data;
+    })
+  </script>
+</html>
