@@ -11,7 +11,7 @@ const products = [
     price: 59.99,
     description: "High quality sound with noise cancellation.",
     image:
-      "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1628202926206-c63a34b1618f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 2,
@@ -77,6 +77,9 @@ const Products = () => {
             <Image
               src={product.image}
               alt={product.name}
+              
+              width={500}
+              height={300}
               className="w-full h-56 object-cover"
             />
             <div className="p-4">
