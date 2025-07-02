@@ -1,10 +1,10 @@
  const SideBar = () => {
   return (
     <div className="bg-gray-800 dark:bg-gray-900 h-auto text-white w-72 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out">
-      <a href="/dashboard" className="text-white flex items-center space-x-2 px-4">
+      <p  className="text-white flex items-center space-x-2 px-4">
         <i className="fas fa-shopping-bag text-2xl"></i>
         <span className="text-2xl font-extrabold">Admin</span>
-      </a>
+      </p>
       <nav>
         {[
           { label: 'Dashboard', icon: 'fa-home', href: '/dashboard' },
