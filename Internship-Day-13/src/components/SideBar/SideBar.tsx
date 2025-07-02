@@ -13,13 +13,13 @@
           { label: 'Customers', icon: 'fa-users', href: '/dashboard/customers' },
           { label: 'Users', icon: 'fa-users', href: '/admin/dashboard/users' },
         ].map((item) => (
-          <a
+          <p
             key={item.href}
-            href={''}
+            
             className="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700 dark:hover:bg-gray-700 hover:text-white"
           >
             <i className={`fas ${item.icon} mr-2`}></i> {item.label}
-          </a>
+          </p>
         ))}
       </nav>
     </div>
